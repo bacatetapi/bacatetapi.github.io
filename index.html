@@ -1,0 +1,361 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Baca:Tetapi - Independent Digital Publishing, Research, Literature and Cultural Heritage.">
+<title>Baca:Tetapi | Independent Digital Publishing</title>
+
+<style>
+:root {
+  --navy: #172d3c;
+  --gold: #c49b54;
+  --paper: #f7f6f2;
+  --text: #263746;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--paper);
+  color: var(--text);
+  line-height: 1.7;
+}
+
+header {
+  background: var(--navy);
+  color: white;
+  padding: 28px 6%;
+}
+
+.brand {
+  font-family: Georgia, serif;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.tagline {
+  color: #d2dbe1;
+  font-size: 14px;
+}
+
+nav {
+  background: #10222f;
+  padding: 14px 6%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: var(--gold);
+}
+
+.hero {
+  background: linear-gradient(135deg, #172d3c, #304d60);
+  color: white;
+  padding: 90px 8%;
+}
+
+.hero h1 {
+  font-family: Georgia, serif;
+  font-size: clamp(32px, 5vw, 54px);
+  max-width: 850px;
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+.hero p {
+  max-width: 750px;
+  color: #dce5eb;
+}
+
+.eyebrow {
+  color: #e7bd78;
+  letter-spacing: 3px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.button {
+  display: inline-block;
+  background: var(--gold);
+  color: #14242e;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 45px 25px;
+}
+
+section {
+  margin-bottom: 55px;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  font-size: 29px;
+  color: var(--navy);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 22px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #deded8;
+  border-top: 4px solid var(--gold);
+  padding: 28px;
+  border-radius: 5px;
+  scroll-margin-top: 24px;
+}
+
+.card h3 {
+  color: var(--navy);
+  font-family: Georgia, serif;
+  font-size: 23px;
+  margin-top: 0;
+}
+
+.status {
+  font-size: 12px;
+  color: #65737c;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.panel {
+  background: white;
+  padding: 30px;
+  border: 1px solid #deded8;
+  border-radius: 5px;
+}
+
+footer {
+  background: var(--navy);
+  color: #dce5eb;
+  padding: 40px 6%;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer a {
+  color: #e7bd78;
+}
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 55px 6%;
+  }
+
+  nav {
+    gap: 14px;
+  }
+
+  .brand {
+    font-size: 29px;
+  }
+
+  main {
+    padding: 30px 18px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header id="home">
+  <div class="brand">BACA:TETAPI</div>
+  <div class="tagline">Independent Digital Publishing</div>
+</header>
+
+<nav aria-label="Main navigation">
+  <a href="#home">Home</a>
+  <a href="#journals">Journals</a>
+  <a href="#books">Books</a>
+  <a href="#research">Research</a>
+  <a href="#literature">Literature</a>
+  <a href="#culture">Cultural Heritage</a>
+  <a href="#editorial">Editorial Policy</a>
+  <a href="#about">About Us</a>
+</nav>
+
+<div class="hero">
+  <p class="eyebrow">Knowledge · Creativity · Heritage</p>
+
+  <h1>Connecting Knowledge, Literature and Cultural Heritage</h1>
+
+  <p>
+    Baca:Tetapi is an independent digital publishing initiative
+    dedicated to research, education, literature, cultural
+    preservation and responsible digital innovation.
+  </p>
+
+  <p lang="id">
+    Baca:Tetapi merupakan inisiatif penerbitan digital independen
+    untuk pengembangan ilmu pengetahuan, pendidikan, sastra,
+    pelestarian budaya dan inovasi digital.
+  </p>
+
+  <a class="button" href="#publications">Explore Publications</a>
+</div>
+
+<main>
+
+<section id="publications">
+  <h2>Publications &amp; Research</h2>
+
+  <div class="grid">
+
+    <article class="card" id="journals">
+      <div class="status">In development</div>
+      <h3>Scientific Journals</h3>
+      <p>
+        A planned platform for scholarly communication
+        and academic publications.
+      </p>
+      <p lang="id">Pengembangan publikasi jurnal ilmiah.</p>
+    </article>
+
+    <article class="card" id="books">
+      <div class="status">Catalogue in preparation</div>
+      <h3>Digital Books</h3>
+      <p>
+        Academic books, reference materials, monographs,
+        educational resources and literary collections.
+      </p>
+      <p lang="id">Buku digital dan referensi pendidikan.</p>
+    </article>
+
+    <article class="card" id="research">
+      <div class="status">Repository in development</div>
+      <h3>Research Repository</h3>
+      <p>
+        Research reports, datasets, technical documentation
+        and reproducible research resources.
+      </p>
+      <p lang="id">Repositori dan dokumentasi penelitian.</p>
+    </article>
+
+    <article class="card" id="literature">
+      <h3>Digital Literature</h3>
+      <p>
+        Poetry, short fiction, multimedia literature
+        and creative digital expression.
+      </p>
+      <p lang="id">Puisi, cerita pendek dan sastra digital.</p>
+    </article>
+
+    <article class="card" id="culture">
+      <h3>Cultural Heritage</h3>
+      <p>
+        Documentation and digital preservation of
+        Pegon, Jawi and Nusantara cultural heritage.
+      </p>
+      <p lang="id">Pelestarian warisan budaya Nusantara.</p>
+    </article>
+
+    <article class="card" id="innovation">
+      <h3>Digital Innovation</h3>
+      <p>
+        Human-AI collaboration, digital humanities,
+        software and educational technology.
+      </p>
+      <p lang="id">Inovasi teknologi dan kolaborasi manusia-AI.</p>
+    </article>
+
+  </div>
+</section>
+
+<section id="editorial">
+  <h2>Editorial Principles</h2>
+
+  <div class="panel">
+    <p>
+      Baca:Tetapi is committed to developing responsible
+      and transparent publishing practices.
+    </p>
+
+    <ul>
+      <li>Academic and intellectual integrity.</li>
+      <li>Respect for copyright and authorship.</li>
+      <li>Transparent use of artificial intelligence.</li>
+      <li>Evidence-based research and documentation.</li>
+      <li>Respect for cultural and linguistic diversity.</li>
+      <li>Protection of personal and research participant data.</li>
+    </ul>
+
+    <p>
+      Detailed editorial and peer-review policies will be
+      established before journal submissions are opened.
+    </p>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About Baca:Tetapi</h2>
+
+  <div class="panel">
+    <p>
+      Baca:Tetapi is an independent digital publishing
+      initiative based in Indonesia.
+    </p>
+
+    <p lang="id">
+      Baca:Tetapi dikembangkan sebagai ruang publikasi
+      independen yang mempertemukan ilmu pengetahuan,
+      sastra, pendidikan, teknologi dan warisan budaya.
+    </p>
+
+    <p>
+      The platform is currently under development.
+      Journal registration, publication identifiers and
+      formal publishing requirements remain subject to
+      the applicable procedures.
+    </p>
+
+    <a href="https://github.com/bacatetapi">
+      Official GitHub Organization
+    </a>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <h3>BACA:TETAPI</h3>
+  <p>Independent Digital Publishing · Indonesia</p>
+  <p>Research · Literature · Education · Cultural Heritage</p>
+  <p>&copy; 2026 Baca:Tetapi</p>
+  <p>Website Version 1.0</p>
+  <a href="https://github.com/bacatetapi">GitHub</a>
+</footer>
+
+</body>
+</html>
